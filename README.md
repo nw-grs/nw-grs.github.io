@@ -6,8 +6,8 @@
 
 * [Security Policy Rules](./palo/security-policy.md)
 
+---
+
 ![Cisco](./img/cisco-logo.png)
 
 ## ASA
-
----
