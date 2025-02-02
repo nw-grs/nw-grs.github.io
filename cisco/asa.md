@@ -43,8 +43,16 @@ Every interface must have *nameif* defined. It must be unique on every interface
 * Always assign the security level 100 to the interface facing the trusted network.
 * Always assign the security level 0 to the interface facing the untrusted network.
 
-
 ## Routing Protocols
+
+Configuring Static Routes on the firewall is somewhat similar to configuring static routes on a Cisco router or switch, with some small differences.
+
+![Static Route on a Router or Switch](../img/static-route-ex1.png)
+
+---
+
+![Static Route on a Router or Switch](../img/static-route-ex1.png)
+
 ---
 
 [🔙 Back](../README.md)
