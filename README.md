@@ -12,6 +12,7 @@
 
 ## ASA
 
+* [Configuring IP Addressing on ASA](./#)
 * [Defining nameif and security levels on ASA](./#)
 * [Configuring Management access on ASA](./#)
 * [Understanding ACL's on ASA](./#)
@@ -22,6 +23,7 @@
 * [Active/Standby Failover](./#)
 * [Active/Active Failover](./#)
 * [Clustering Individual Versus Spaned](./#)
+
 ---
 
 ![Citrix](./img/citrix-logo.png)
