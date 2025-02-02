@@ -11,3 +11,11 @@
 ![Cisco](./img/cisco-logo.png)
 
 ## ASA
+
+---
+
+![Citrix](./img/citrix-logo.png)
+
+## Netscaler SDX
+
+* [RHI](./citrix/RHI.md)
