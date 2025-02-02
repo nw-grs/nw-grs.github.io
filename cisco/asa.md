@@ -59,4 +59,39 @@ Notice the *nameif* in the statement
 
 ---
 
+## Configuring EIGRP on ASA
+
+Configuring EIGRP on the firewall is similar to configuring EIGRP on a Cisco Router, with a few changes. Things to consider before implementing EIGRP
+
+* What Autonomous System is the neighbor using?
+* What are the K-values?
+* Are we doing any authentication?
+* Is my neighbor in the same subnet?
+
+Common troubleshooting commands on the ASA
+
+* show eigrp neighbors
+* debug eigrp packets
+* show eigrp topology
+
+Configuring EIGRP on the firewall
+
+```
+>
+> enable
+# configure terminal
+(config)# router eigrp 100
+(config-router)# network 10.0.0.0 255.255.255.0
+(config-router)# network 192.168.10.0
+```
+
+**Validation**
+
+> show eipgr neighbors
+
+> show route inside
+
+
+---
+
 [🔙 Back](../README.md)
