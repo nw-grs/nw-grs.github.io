@@ -47,7 +47,7 @@ Every interface must have *nameif* defined. It must be unique on every interface
 
 Configuring Static Routes on the firewall is somewhat similar to configuring static routes on a Cisco router or switch, with some small differences.
 
-###
+### 
 
 #### Static Route example for a Router or Switch
 
