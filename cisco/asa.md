@@ -98,7 +98,7 @@ Configuring EIGRP on the firewall
     + *Hmac-sha-256*
 * ASA **only** supports MD5
 * For MD5, we need to create a Key Chain and apply the Key Chain to the interface of the Cisco Router
-* On ASA, we do not need to create a Key Chain
+* On ASA, we **do not need** to create a Key Chain
 * For *hmac-sha-256*, we do not need a Key Chain, instead, directly define the password on the interface. However, is it only supported in Named mode EIGRP.
 
 ```
